@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="km">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>គេហទំព័រផ្ទាល់ខ្លួនរបស់ រិទ្ធិ</title>
+    <style>
+        /* CSS Styling */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        .header {
+            background: linear-gradient(135deg, #4CAF50, #2E7D32);
+            color: rgb(225, 255, 0);
+            padding: 40px 25px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            
+            font-family: khmer os moul;
+        }
+        .profile-img {
+            width: 130px;
+            height: 140px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid white;
+            margin: 10px auto;
+        }
+        .social-buttons {
+            margin: 30px auto;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .btn {
+            padding: 12px 24px;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: 0.3s;
+            text-decoration: none;
+            color: white;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .btn-youtube {
+            background-color: #FF0000;
+        }
+        .btn-tiktok {
+            background-color: #000000;
+        }
+        .btn-facebook {
+            background-color: #1877F2;
+        }
+        .btn:hover {
+            opacity: 0.9;
+            transform: translateY(-3px);
+        }
+        
+        /* Profile Section */
+        .profile-section {
+            max-width: 600px;
+            margin: 30px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            
+            font-family: khmer os Battambang;
+        }
+        .profile-section h2 {
+            color: #2E7D32;
+            border-bottom: 2px solid #4CAF50;
+            padding-bottom: 10px;
+            display: inline-block;
+        }
+        
+        /* Footer Styles */
+        .footer {
+            background: linear-gradient(135deg, #333, #000);
+            color: white;
+            padding: 30px 20px;
+            margin-top: 50px;
+        }
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 20px;
+            flex-wrap: wrap;
+        }
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 16px;
+        }
+        .contact-item i {
+            font-size: 20px;
+            color: #4CAF50;
+        }
+        .highlight {
+            color: #4CAF50;
+            font-weight: bold;
+        }
+        .title{
+            color: #000;
+            font-family: khmer os moul;
+        }
+    </style>
+    <!-- Link to Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="header">
+        <!-- Replace with your actual image path -->
+        <img src="D:\DSC_7234.jpg" alt="Profile" class="profile-img">
+        <h1>ជំរាបសួរ! ខ្ញុំឈ្មោះ <span class="highlight">RITH</span></h1>
+        <p id="title">អាយុ ១៨ឆ្នាំ | អ្នកបង្កើតមាតិកាឌីជីថល</p>
+    </div>
+
+    <div class="profile-section">
+        <h2>អំពីខ្ញុំ</h2>
+        <p>សួស្តី! ខ្ញុំជា <span class="highlight">RITH</span> អាយុ ១៨ឆ្នាំ ជាអ្នកចូលចិត្តបង្កើតមាតិកាឌីជីថលលើប្រព័ន្ធផ្សព្វផ្សាយសង្គម។ ខ្ញុំសហការជាមួយ YouTube, TikTok និង Facebook ដើម្បីចែករំលែកចំណេះដឹង និងការកំសាន្ត។</p>
+    </div>
+
+    <div class="social-buttons">
+        <a href="https://www.youtube.com/@Phum.RithTV" class="btn btn-youtube" id="youtubeBtn">
+            <i class="fab fa-youtube"></i> YouTube
+        </a>
+        <a href="https://www.tiktok.com/@cprogram1" class="btn btn-tiktok" id="tiktokBtn">
+            <i class="fab fa-tiktok"></i> TikTok
+        </a>
+        <a href="https://web.facebook.com/?_rdc=1&_rdr#" class="btn btn-facebook" id="facebookBtn">
+            <i class="fab fa-facebook"></i> Facebook
+        </a>
+    </div>
+
+    <!-- Footer with Contact Info -->
+    <div class="footer">
+        <h3>ទំនាក់ទំនងជាមួយខ្ញុំ</h3>
+        <div class="contact-info">
+            <div class="contact-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <span>អាសយដ្ឋាន៖ កែប, កម្ពុជា</span>
+            </div>
+            <div class="contact-item">
+                <i class="fas fa-phone"></i>
+                <span>ទូរស័ព្ទ៖ <span class="highlight">+855 766403392</span></span>
+            </div>
+            <div class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <span>អ៊ីមែល៖ <span class="highlight">Runrith0000@gmail.com</span></span>
+            </div>
+            <div class="contact-item">
+                <i class="fas fa-heart"></i>
+                <span>ស្ថានភាព៖ <span class="highlight">Single</span></span>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // JavaScript for button interactions
+        document.getElementById("youtubeBtn").addEventListener("click", function(e) {
+            e.preventDefault();
+            if(confirm("តើអ្នកចង់ទៅកាន់ YouTube របស់ខ្ញុំដែរឬទេ?")) {
+                window.location.href = this.href;
+            }
+        });
+
+        document.getElementById("tiktokBtn").addEventListener("click", function(e) {
+            e.preventDefault();
+            if(confirm("តើអ្នកចង់ទៅកាន់ TikTok របស់ខ្ញុំដែរឬទេ?")) {
+                window.location.href = this.href;
+            }
+        });
+
+        document.getElementById("facebookBtn").addEventListener("click", function(e) {
+            e.preventDefault();
+            if(confirm("តើអ្នកចង់ទៅកាន់ Facebook របស់ខ្ញុំដែរឬទេ?")) {
+                window.location.href = this.href;
+            }
+        });
+    </script>
+</body>
+</html>
